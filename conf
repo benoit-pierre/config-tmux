@@ -10,4 +10,4 @@ set-option -g mode-keys vi
 set-option -g mode-mouse on
 set-option -g xterm-keys on
 
-# vim: ft=cfg
+# vim: ft=tmux
