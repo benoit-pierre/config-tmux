@@ -8,6 +8,7 @@ set-option -g clock-mode-style 24
 set-option -g mode-keys vi
 set-option -g mode-mouse off
 set-option -g xterm-keys on
+set-option -g automatic-rename off
 
 set-option -g window-status-current-attr none
 set-option -g window-status-current-bg black
