@@ -26,4 +26,7 @@ set-option -g message-bg black
 set-option -g message-fg white
 set-option -g message-attr none
 
+# Clear screen.
+bind-key C send-keys -R
+
 # vim: ft=tmux
