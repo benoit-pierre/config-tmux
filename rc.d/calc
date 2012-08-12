@@ -1,6 +1,3 @@
-source-file ~/.tmux/conf
-
-new-session calc
-rename-window calc
+new-session -s calc -n calc calc
 
 # vim: ft=tmux
