@@ -10,6 +10,7 @@ set-option -g mode-mouse off
 set-option -g xterm-keys on
 set-option -g automatic-rename off
 set-option -g history-limit 10000
+set-option -g update-environment "DISPLAY PATH SSH_ASKPASS SSH_AUTH_SOCK SSH_AGENT_PID SSH_CONNECTION WINDOWID XAUTHORITY"
 
 set-option -g window-status-current-attr none
 set-option -g window-status-current-bg black
