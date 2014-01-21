@@ -1,0 +1,2 @@
+xterm-tmux-256color|GNU Screen based with 256 colors bce for tmux with xterm and xterm-keys,
+	use=screen-256color-bce,
