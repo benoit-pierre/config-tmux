@@ -26,7 +26,17 @@ set-option -g message-bg black
 set-option -g message-fg white
 set-option -g message-attr none
 
+# Bindings. {{{
+
 # Clear screen.
 bind-key C send-keys -R
+
+# Pane selection (no repeat).
+bind-key -T prefix Up    select-pane -U
+bind-key -T prefix Down  select-pane -D
+bind-key -T prefix Left  select-pane -L
+bind-key -T prefix Right select-pane -R
+
+# }}}
 
 # vim: ft=tmux
